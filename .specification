@@ -1,0 +1,78 @@
+--- !ruby/object:Gem::Specification 
+name: crummy
+version: !ruby/object:Gem::Version 
+  hash: 19
+  prerelease: false
+  segments: 
+  - 1
+  - 1
+  - 0
+  version: 1.1.0
+platform: ruby
+authors: 
+- Zach Inglis
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2010-12-12 00:00:00 +01:00
+default_executable: 
+dependencies: []
+
+description: Crummy is a simple and tasty way to add breadcrumbs to your Rails applications.
+email: zach@lt3media.com
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+- README.textile
+files: 
+- .gitignore
+- MIT-LICENSE
+- README.textile
+- Rakefile
+- VERSION
+- init.rb
+- lib/crummy.rb
+- lib/crummy/action_controller.rb
+- lib/crummy/action_view.rb
+- lib/crummy/railtie.rb
+- lib/crummy/standard_renderer.rb
+- tasks/crummy_tasks.rake
+has_rdoc: true
+homepage: http://github.com/zachinglis/crummy
+licenses: []
+
+post_install_message: 
+rdoc_options: []
+
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  none: false
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      hash: 3
+      segments: 
+      - 0
+      version: "0"
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  none: false
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      hash: 3
+      segments: 
+      - 0
+      version: "0"
+requirements: []
+
+rubyforge_project: 
+rubygems_version: 1.3.7
+signing_key: 
+specification_version: 3
+summary: Tasty breadcrumbs!
+test_files: []
+
